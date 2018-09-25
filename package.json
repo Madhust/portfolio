@@ -14,7 +14,8 @@
     "@vue/cli-plugin-babel": "^3.0.3",
     "@vue/cli-plugin-eslint": "^3.0.3",
     "@vue/cli-service": "^3.0.3",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "husky": "^1.0.0-rc.15"
   },
   "eslintConfig": {
     "root": true,
@@ -40,10 +41,9 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "config": {
-    "ghooks": {
+  "husky": {
+    "hooks": {
       "pre-commit": "npm run build"
     }
   }
-
 }
