@@ -1,18 +1,26 @@
 <template>
   <div class="hello">
-    <Header></Header>
+    <Header @gotoabout='gotoAbout()'></Header>
+    <About ref="about"></About>
   </div>
 </template>
 
 <script>
 import Header from "./HeaderComponent.vue";
+import About from "./AboutComponent.vue";
 export default {
-  name: 'HelloWorld',
+  name: 'PortFolio',
   props: {
     msg: String
   },
+  methods: {
+    gotoAbout() {
+      this.$refs.about.$refs.about.scrollIntoView({ behavior: "smooth" });
+    }
+  },
   components: {
-    Header: Header
+    Header: Header,
+    About
   }
 }
 </script>

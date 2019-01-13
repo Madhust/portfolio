@@ -1,31 +1,33 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Portfolio />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Portfolio from './components/Portfolio.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Portfolio
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway|Raleway-bold'); 
 html, body {
   margin: 0;
   padding: 0;
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40pt;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: whitesmoke;
 }
 </style>
