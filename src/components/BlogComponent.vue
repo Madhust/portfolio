@@ -32,7 +32,6 @@ export default {
   },
   mounted() {
       RssToJson.load('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@maddydeep28', (data, rss) => {
-          console.log(rss);
           this.blogs = rss;
       });
   },
