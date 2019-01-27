@@ -1,13 +1,20 @@
 <template>
   <div class="hello">
-    <Header @gotoabout='gotoAbout()'></Header>
+    <Header ref="header" @gotoabout='gotoAbout()'></Header>
     <About ref="about"></About>
+    <Projects/>
+    <Blog/>
+    <Contact @gototop='gototop()'/>
   </div>
 </template>
 
 <script>
 import Header from "./HeaderComponent.vue";
 import About from "./AboutComponent.vue";
+import Projects from "./ProjectsComponent.vue";
+import Blog from "./BlogComponent.vue";
+import Contact from "./ContactComponent.vue";
+
 export default {
   name: 'PortFolio',
   props: {
@@ -16,11 +23,17 @@ export default {
   methods: {
     gotoAbout() {
       this.$refs.about.$refs.about.scrollIntoView({ behavior: "smooth" });
-    }
+    },
+    gototop() {
+      this.$refs.header.$refs.header.scrollIntoView({ behavior: "smooth" });
+    },
   },
   components: {
-    Header: Header,
-    About
+    Header,
+    About,
+    Projects,
+    Blog,
+    Contact
   }
 }
 </script>

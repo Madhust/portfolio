@@ -1,6 +1,6 @@
 <script>
 export default {
-  template: `<section><div class="view-banner">
+  template: `<section ref='header'><div class="view-banner">
   <div><div class="text">Hello, I'm<span class="highlight">&nbsp;{{name}}</span>. 
   <br>I'm a Front-end web developer</div></div>
   <div class='banner-button-parent'>
@@ -101,5 +101,12 @@ export default {
 .banner-button:hover .banner-icon {
   animation: icon-rotate 0.3s linear both;
 }
+@media (min-width: 320px) and (max-width: 480px) { 
+
+.text, .banner-button {
+    font-size: 16pt;
+  }
+}
+
 </style>
 

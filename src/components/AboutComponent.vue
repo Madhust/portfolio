@@ -170,8 +170,33 @@ export default {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .view {  
+  .view {
+    height: auto;
+  }
+  .about-content {
     flex-direction: column;
+  }
+  .flex-static {
+    min-width: 50px;
+    max-width: 50px;
+  }
+  .header {
+    font-size: 24pt;
+  }
+
+  .about-skills {
+    margin-left: 30px;
+  }
+  .tech-desc {
+    font-size: 7pt;
+    padding: initial;
+    padding-top: 5px;
+  }
+  .desc.bold {
+    font-size: 16pt;
+  }
+  .desc {
+    font-size: 12pt;
   }
 }
 </style>
