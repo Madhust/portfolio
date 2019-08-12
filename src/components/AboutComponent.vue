@@ -64,16 +64,16 @@ export default {
           percent: 65
         },
         {
+          name: "Blazor",
+          percent: 45
+        },
+        {
           name: "ASP.NET",
           percent: 75
         },
         {
           name: "SQL",
           percent: 50
-        },
-        {
-          name: "WebAssembly",
-          percent: 15
         }
       ]
     };

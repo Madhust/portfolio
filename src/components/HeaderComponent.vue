@@ -1,6 +1,10 @@
 <script>
+import HeaderContact from './HeaderContactComponent';
 export default {
-  template: `<section ref='header'><div class="view-banner">
+  template: `<section ref='header'>
+  <div class="view-banner">
+  <HeaderContact/>
+  
   <div><div class="text">Hello, I'm<span class="highlight">&nbsp;{{name}}</span>. 
   <br>I'm a Front-end web developer</div></div>
   <div class='banner-button-parent'>
@@ -15,6 +19,9 @@ export default {
     return {
       name: "Madhu Sudhanan P"
     };
+  },
+  components: {
+    HeaderContact,
   },
   methods: {
     goToAbout() {
@@ -107,6 +114,21 @@ export default {
     font-size: 16pt;
   }
 }
+
+.contact {
+  position:absolute;
+  right:20px;
+  top:20px;
+  font-size:30px
+}
+
+.contact .contact-item {
+  padding-right: 10px;
+}
+
+.highlight i:hover{
+  color: white;
+} 
 
 </style>
 

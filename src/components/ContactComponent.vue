@@ -1,13 +1,20 @@
 <script>
 export default {
-  template: `<section id='contact'>
+  template: `
+  <section id='contact'>
     <div class="contactview emailview">
-    <span>Email Me: </span>
-    <span><a href="mailto:madhusudhananit@gmail.com?Subject=Regarding%20PortFolio%20MadhuSudhanan" target="_top">madhusudhananit@gmail.com</a></span>
+      <span>Email Me: </span>
+      <span>
+        <a href="mailto:madhusudhananit@gmail.com?Subject=Regarding%20PortFolio%20MadhuSudhanan" target="_top">
+          madhusudhananit@gmail.com
+        </a>
+      </span>
     </div>
     <div class="contactview">
-    <div @click='goToTop()'><i class="fa fa-angle-double-up"></i></div>
-    <div>Go to Top<div>
+      <div @click='goToTop()'>
+        <i class="fa fa-angle-double-up"></i>
+      </div>
+      <div>Go to Top<div>
     </div>
   </section>`,
   data() {
