@@ -5,7 +5,7 @@ script: npm run build
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: portfolio  # Set in the settings page of your repository, as a secure variable
+  github-token: $portfolio  # Set in the settings page of your repository, as a secure variable
   keep-history: true
   target-branch: madhust.github.io
   on:
