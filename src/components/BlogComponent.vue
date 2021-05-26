@@ -1,5 +1,5 @@
 <script>
-import RssToJson from 'rss-to-json';
+import blogdata from '../blogdata';
 export default {
   template: `<section id='blogs'>
     <div class="view blogview">
@@ -10,7 +10,7 @@ export default {
             <div class="desc"><i>Share your knowledge. It’s a way to achieve immortality - Dalai Lama</i></div>
         </div>
         <div class='flex project-items blog-items'>
-        <div class='mdc-card my-card blog-card' v-for="item in blogs.items">
+        <div class='mdc-card my-card blog-card' v-for="item in blogs.items.reverse()">
             <div class="desc bold blog-head md-primarytext mdc-typography--headline6">
              {{item.title}}
             </div>
@@ -27,13 +27,11 @@ export default {
   </section>`,
   data() {
     return {
-        blogs: []
+        blogs: blogdata
     };
   },
   mounted() {
-      RssToJson.load('https://cors-anywhere.herokuapp.com/https://medium.com/feed/@maddydeep28', (data, rss) => {
-          this.blogs = rss;
-      });
+      
   },
   methods: {
       open(link) {

@@ -65,7 +65,7 @@ export default {
         },
         {
           name: "Blazor",
-          percent: 45
+          percent: 75
         },
         {
           name: "ASP.NET",

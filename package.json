@@ -16,8 +16,7 @@
     "@vue/cli-plugin-eslint": "^3.0.3",
     "@vue/cli-service": "^3.0.3",
     "vue-template-compiler": "^2.5.17",
-    "@material/card": "^0.43.0",
-    "rss-to-json": "^1.0.4"
+    "@material/card": "^0.43.0"
   },
   "eslintConfig": {
     "root": true,
