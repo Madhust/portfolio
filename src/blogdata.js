@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: "NDepend – a cutting edge static code analysis tool",
+            created: "May 30, 2021",
+            link:"https://maddydeep28.medium.com/ndepend-a-cutting-edge-static-code-analysis-tool-eec2cbad28a6"
+        },
+        {
             title: "Blazor in depth — Create Blazor component without Lifecycle methods",
             created: "Oct 16, 2020",
             link: "https://medium.com/@maddydeep28/blazor-in-depth-create-blazor-component-without-lifecycle-methods-37d027761bbb"
