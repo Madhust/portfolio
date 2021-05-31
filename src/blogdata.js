@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: "How to publish Blazor WebAssembly application to GitHub pages using GitHub Action",
+            created: "May 31, 2021",
+            link: "https://maddydeep28.medium.com/how-to-publish-blazor-webassembly-application-to-github-pages-using-github-action-39aa7408cb78"
+        },
+        {
             title: "NDepend – a cutting edge static code analysis tool",
             created: "May 30, 2021",
             link:"https://maddydeep28.medium.com/ndepend-a-cutting-edge-static-code-analysis-tool-eec2cbad28a6"
