@@ -18,6 +18,11 @@ export default {
       </a>
     </span>
     <span class="banner-icon contact-item">
+      <a href="https://dev.to/madhust" target="__blank" class="highlight" title="Madhu's DEV Community Profile">
+        <i class="fab fa-dev" title="Madhu's DEV Community Profile"></i>
+      </a>
+    </span>
+    <span class="banner-icon contact-item">
       <a href="https://medium.com/@maddydeep28" target="__blank" class="highlight" title="Medium">
         <i class="fab fa-medium"></i>
       </a>
