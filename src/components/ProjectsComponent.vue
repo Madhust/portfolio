@@ -42,6 +42,12 @@ export default {
             description: 'NodeJS based CLI directory remover using bash script',
             link: 'https://www.npmjs.com/package/deleter',
             bgImage: 'md-deleter'
+        },
+        {
+            name: 'NgHackerNews - News Feed',
+            description: 'A hacker news site with new design developed using Angular.',
+            link: 'https://madhust.github.io/NgHackerNews/',
+            bgImage: 'md-yfeed'
         }]
     };
   },
@@ -113,6 +119,12 @@ export default {
 }
 .md-deleter {
     background: url("../assets/nodejs.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.md-yfeed {
+    background: url("../assets/yfeed.png");
     background-size: contain;
     background-repeat: no-repeat;
 }

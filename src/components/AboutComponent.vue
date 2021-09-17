@@ -13,7 +13,7 @@ export default {
                     <div class='about-me'>
                     <div class="desc bold">Who am I?</div>
                     <div class="desc">I'm a Front-end web developer currently working 
-                    at <span class='highlight-desc'>Syncfusion</span> in India. Fond of innovative technologies, frameworks and love problem solving 
+                    at <span class='highlight-desc'>Genesys</span> in India. Fond of innovative technologies, frameworks and love problem solving 
                     and debugging.</div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@ export default {
   color: #0e0f14;
 }
 .highlight-desc {
-  color: #0590ec;
+  color: #FF4F1F;
 }
 .bar {
   height: 25px;
