@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: "Conditionally lazy load modules in Angular",
+            created: "April 22, 2022",
+            link: "https://maddydeep28.medium.com/conditionally-lazy-load-modules-in-angular-b67312fa1d35"
+        },
+        {
             title: "How to publish Blazor WebAssembly application to GitHub pages using GitHub Action",
             created: "May 31, 2021",
             link: "https://maddydeep28.medium.com/how-to-publish-blazor-webassembly-application-to-github-pages-using-github-action-39aa7408cb78"
