@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: 'Lazy loading non-routable Angular modules — Imperative & Declarative pattern',
+            created: 'May 01, 2022',
+            link: 'https://towardsdev.com/lazy-loading-non-routable-angular-modules-imperative-declarative-pattern-6a0cea0356e9'
+        },
+        {
             title: "Conditionally lazy load modules in Angular",
             created: "April 22, 2022",
             link: "https://maddydeep28.medium.com/conditionally-lazy-load-modules-in-angular-b67312fa1d35"
