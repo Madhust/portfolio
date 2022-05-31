@@ -28,10 +28,15 @@ export default {
   data() {
     return {
         projects: [{
+            name: "Protools Angular package",
+            description: "A package that contains essential items for your angular application.",
+            link: 'https://www.npmjs.com/package/@protools/angular',
+            bgImage: 'md-angular'
+        },{
             name: 'Visual Studio Code Extension',
             description: 'TypeScript Snippet for Essential Angular Grid component.',
             link: 'https://marketplace.visualstudio.com/items?itemName=madhusudhananp.vscode-ej2-angular-grid-snippet',
-            bgImage: 'md-angular'
+            bgImage: 'md-vscode'
         },{
             name: 'GraphQL Data Adaptor',
             description: 'Data Adaptor which allows EJ2 DataManager to interact with GraphQL',
@@ -42,8 +47,7 @@ export default {
             description: 'NodeJS based CLI directory remover using bash script',
             link: 'https://www.npmjs.com/package/deleter',
             bgImage: 'md-deleter'
-        },
-        {
+        },{
             name: 'NgHackerNews - News Feed',
             description: 'A hacker news site with new design developed using Angular.',
             link: 'https://madhust.github.io/NgHackerNews/',
@@ -106,8 +110,12 @@ export default {
     height: 225px;
     transform: scale(0.75);
 }
-
 .md-angular {
+    background: url("../assets/angular.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.md-vscode {
     background: url("../assets/vscode.png");
     background-size: contain;
     background-repeat: no-repeat;
