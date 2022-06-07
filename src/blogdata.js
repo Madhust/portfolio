@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: 'Stateless standalone components in Angular',
+            created: 'June 07, 2022',
+            link: 'https://towardsdev.com/stateless-standalone-components-in-angular-beef9cad840b'
+        },
+        {
             title: 'Lazy loading non-routable Angular modules — Imperative & Declarative pattern',
             created: 'May 01, 2022',
             link: 'https://towardsdev.com/lazy-loading-non-routable-angular-modules-imperative-declarative-pattern-6a0cea0356e9'
