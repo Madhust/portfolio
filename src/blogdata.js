@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: 'Angular Signals🚦: New Change detection strategy',
+            created: 'Sep 04, 2023',
+            link: 'https://maddydeep28.medium.com/angular-signals-new-change-detection-strategy-44f7ee9c359a'
+        },
+        {
             title: 'Stateless standalone components in Angular',
             created: 'June 07, 2022',
             link: 'https://towardsdev.com/stateless-standalone-components-in-angular-beef9cad840b'
