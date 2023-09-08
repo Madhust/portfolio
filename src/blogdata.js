@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: 'Angular Signals — Using the Untracked Function to Prevent Dependency Tracking',
+            created: 'Sep 05, 2023',
+            link: 'https://blog.stackademic.com/angular-signals-using-the-untracked-function-to-prevent-dependency-tracking-1354bf9632e0'
+        },
+        {
             title: 'Angular Signals🚦: New Change detection strategy',
             created: 'Sep 04, 2023',
             link: 'https://maddydeep28.medium.com/angular-signals-new-change-detection-strategy-44f7ee9c359a'
