@@ -1,7 +1,14 @@
 export default {
     items: [
         {
-           title: 'Angular - New control flow with a working example', created: 'Sep 30, 2023', link: 'https://maddydeep28.medium.com/angular-new-control-flow-with-a-working-example-72cc0a860988'
+            title: 'How to enable the new control flow or defer block in the Angular v17.0.0-next.6?',
+            created: 'Sep 30, 2023',
+            link: 'https://maddydeep28.medium.com/how-to-enable-the-new-control-flow-or-defer-block-in-the-angular-v17-0-0-next-6-6bbe29287cbe'
+        },
+        {
+           title: 'Angular - New control flow with a working example',
+           created: 'Sep 30, 2023',
+           link: 'https://maddydeep28.medium.com/angular-new-control-flow-with-a-working-example-72cc0a860988'
         },
         {
             title: 'Angular Signals — Using the Untracked Function to Prevent Dependency Tracking',
