@@ -1,6 +1,9 @@
 export default {
     items: [
         {
+           title: 'Angular - New control flow with a working example', created: 'Sep 30, 2023', link: 'https://maddydeep28.medium.com/angular-new-control-flow-with-a-working-example-72cc0a860988'
+        },
+        {
             title: 'Angular Signals — Using the Untracked Function to Prevent Dependency Tracking',
             created: 'Sep 05, 2023',
             link: 'https://blog.stackademic.com/angular-signals-using-the-untracked-function-to-prevent-dependency-tracking-1354bf9632e0'
