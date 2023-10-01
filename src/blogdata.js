@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: 'Angular — Deferred Loading using defer block — What you need to know',
+            created: 'Oct 01, 2023',
+            link: 'https://maddydeep28.medium.com/angular-deferred-loading-using-defer-block-what-you-need-to-know-f3e116c53129'
+        },
+        {
             title: 'How to enable the new control flow or defer block in the Angular v17.0.0-next.6?',
             created: 'Sep 30, 2023',
             link: 'https://maddydeep28.medium.com/how-to-enable-the-new-control-flow-or-defer-block-in-the-angular-v17-0-0-next-6-6bbe29287cbe'
