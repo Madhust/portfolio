@@ -1,6 +1,11 @@
 export default {
     items: [
         {
+            title: 'Angular Dependency Injection — Inject service inside custom Rxjs operators',
+            created: 'Oct 19, 2024',
+            link: 'https://maddydeep28.medium.com/angular-dependency-injection-inject-service-inside-custom-rxjs-operators-6c44c62109a3'
+        },
+        {
             title: 'Angular Signals — Using the Untracked Function to Prevent Dependency Tracking',
             created: 'Sep 05, 2023',
             link: 'https://blog.stackademic.com/angular-signals-using-the-untracked-function-to-prevent-dependency-tracking-1354bf9632e0'
