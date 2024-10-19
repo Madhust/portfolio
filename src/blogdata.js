@@ -6,6 +6,21 @@ export default {
             link: 'https://maddydeep28.medium.com/angular-dependency-injection-inject-service-inside-custom-rxjs-operators-6c44c62109a3'
         },
         {
+            title: 'Angular — Deferred Loading using defer block — What you need to know',
+            created: 'Oct 01, 2023',
+            link: 'https://maddydeep28.medium.com/angular-deferred-loading-using-defer-block-what-you-need-to-know-f3e116c53129'
+        },
+        {
+            title: 'How to enable the new control flow or defer block in the Angular v17.0.0-next.6?',
+            created: 'Sep 30, 2023',
+            link: 'https://maddydeep28.medium.com/how-to-enable-the-new-control-flow-or-defer-block-in-the-angular-v17-0-0-next-6-6bbe29287cbe'
+        },
+        {
+           title: 'Angular - New control flow with a working example',
+           created: 'Sep 30, 2023',
+           link: 'https://maddydeep28.medium.com/angular-new-control-flow-with-a-working-example-72cc0a860988'
+        },
+        {
             title: 'Angular Signals — Using the Untracked Function to Prevent Dependency Tracking',
             created: 'Sep 05, 2023',
             link: 'https://blog.stackademic.com/angular-signals-using-the-untracked-function-to-prevent-dependency-tracking-1354bf9632e0'
